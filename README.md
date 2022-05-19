@@ -35,3 +35,7 @@ Now you can see ep0 in `/srv/canokey`, then you should run `canokey-ffs` inside 
 cd /srv/canokey
 /path/to/your/canokey-ffs
 ```
+
+## Known limitation
+
+WebUSB does not work as WebUSB needs USB 2.1 (BOS descriptor) but ConfigFS does not support it.
